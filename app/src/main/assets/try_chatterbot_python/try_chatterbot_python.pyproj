@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ed7113cd-7b98-48b4-bdce-50ffdccb0465}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>ChatterBot-master\examples\terminal_example.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ChatterBot-master\" />
+    <Folder Include="ChatterBot-master\chatterbot\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\input\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\logic\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\logic\data\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\output\" />
+    <Folder Include="ChatterBot-master\chatterbot\adapters\storage\" />
+    <Folder Include="ChatterBot-master\chatterbot\conversation\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\english\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\indonesia\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\italian\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\" />
+    <Folder Include="ChatterBot-master\chatterbot\corpus\data\spanish\" />
+    <Folder Include="ChatterBot-master\chatterbot\training\" />
+    <Folder Include="ChatterBot-master\chatterbot\utils\" />
+    <Folder Include="ChatterBot-master\docs\" />
+    <Folder Include="ChatterBot-master\docs\adapters\" />
+    <Folder Include="ChatterBot-master\docs\_static\" />
+    <Folder Include="ChatterBot-master\docs\_templates\" />
+    <Folder Include="ChatterBot-master\examples\" />
+    <Folder Include="ChatterBot-master\graphics\" />
+    <Folder Include="ChatterBot-master\tests\" />
+    <Folder Include="ChatterBot-master\tests\conversation_tests\" />
+    <Folder Include="ChatterBot-master\tests\corpus_tests\" />
+    <Folder Include="ChatterBot-master\tests\input_adapter_tests\" />
+    <Folder Include="ChatterBot-master\tests\logic_adapter_tests\" />
+    <Folder Include="ChatterBot-master\tests\output_adapter_tests\" />
+    <Folder Include="ChatterBot-master\tests\storage_adapter_tests\" />
+    <Folder Include="ChatterBot-master\tests\storage_adapter_tests\integration_tests\" />
+    <Folder Include="ChatterBot-master\tests\storage_adapter_tests\test_data\" />
+    <Folder Include="ChatterBot-master\tests\training_tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChatterBot-master\.codeclimate.yml" />
+    <Content Include="ChatterBot-master\.gitignore" />
+    <Content Include="ChatterBot-master\.travis.yml" />
+    <Content Include="ChatterBot-master\chatterbot\adapters\logic\data\math_words_EN.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\english\conversations.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\english\greetings.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\english\trivia.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\indonesia\conversations.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\indonesia\greetings.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\indonesia\trivia.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\italian\conversations.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\italian\greetings.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\italian\trivia.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\compliment_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\conversations_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\greetings_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\linguisticKnowledge_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\proverbs_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\suggestions_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\trivia_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\Portuguese\unilab_pt-BR.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\spanish\conversations.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\spanish\greetings.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\data\spanish\trivia.json" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\readme-es.md" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\readme.md" />
+    <Content Include="ChatterBot-master\chatterbot\corpus\readme.pt.md" />
+    <Content Include="ChatterBot-master\chatterbot\__init__.pyc" />
+    <Content Include="ChatterBot-master\docs\adapters\index.rst" />
+    <Content Include="ChatterBot-master\docs\adapters\input.rst" />
+    <Content Include="ChatterBot-master\docs\adapters\logic.rst" />
+    <Content Include="ChatterBot-master\docs\adapters\output.rst" />
+    <Content Include="ChatterBot-master\docs\adapters\storage.rst" />
+    <Content Include="ChatterBot-master\docs\chatterbot.rst" />
+    <Content Include="ChatterBot-master\docs\conversations.rst" />
+    <Content Include="ChatterBot-master\docs\examples.rst" />
+    <Content Include="ChatterBot-master\docs\index.rst" />
+    <Content Include="ChatterBot-master\docs\quickstart.rst" />
+    <Content Include="ChatterBot-master\docs\training.rst" />
+    <Content Include="ChatterBot-master\docs\tutorial.rst" />
+    <Content Include="ChatterBot-master\docs\utils.rst" />
+    <Content Include="ChatterBot-master\docs\_static\github-mark.png" />
+    <Content Include="ChatterBot-master\docs\_static\so-icon.png" />
+    <Content Include="ChatterBot-master\docs\_templates\footer.html" />
+    <Content Include="ChatterBot-master\graphics\ad.png" />
+    <Content Include="ChatterBot-master\graphics\ad.xcf" />
+    <Content Include="ChatterBot-master\graphics\banner.png" />
+    <Content Include="ChatterBot-master\graphics\chatterbot.xcf" />
+    <Content Include="ChatterBot-master\graphics\README.md" />
+    <Content Include="ChatterBot-master\graphics\scan.jpg" />
+    <Content Include="ChatterBot-master\license.md" />
+    <Content Include="ChatterBot-master\MANIFEST.in" />
+    <Content Include="ChatterBot-master\readme-es.md" />
+    <Content Include="ChatterBot-master\readme.md" />
+    <Content Include="ChatterBot-master\readme.pt.md" />
+    <Content Include="ChatterBot-master\requirements.txt" />
+    <Content Include="ChatterBot-master\setup.cfg" />
+    <Content Include="ChatterBot-master\tests\storage_adapter_tests\test_data\get_search.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatterBot-master\chatterbot\adapters\adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\input\hipchat.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\input\input_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\input\terminal.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\input\variable_input_type_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\input\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\base_match.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\closest_match.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\closest_meaning.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\logic_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\mathematical_evaluation.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\mixins.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\multi_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\no_knowledge_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\no_logic.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\time_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\logic\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\hipchat.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\mailgun.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\output_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\output_format_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\terminal.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\output\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\storage\jsondatabase.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\storage\mongodb.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\storage\storage_adapter.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\storage\twitter_storage.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\storage\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\adapters\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\chatterbot.py" />
+    <Compile Include="ChatterBot-master\chatterbot\conversation\statement.py" />
+    <Compile Include="ChatterBot-master\chatterbot\conversation\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\corpus\corpus.py" />
+    <Compile Include="ChatterBot-master\chatterbot\corpus\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\training\trainers.py" />
+    <Compile Include="ChatterBot-master\chatterbot\training\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\clean.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\module_loading.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\pos_tagger.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\queues.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\read_input.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\stop_words.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\word_net.py" />
+    <Compile Include="ChatterBot-master\chatterbot\utils\__init__.py" />
+    <Compile Include="ChatterBot-master\chatterbot\__init__.py" />
+    <Compile Include="ChatterBot-master\docs\conf.py" />
+    <Compile Include="ChatterBot-master\examples\basic_example.py" />
+    <Compile Include="ChatterBot-master\examples\chatterbotapi.py" />
+    <Compile Include="ChatterBot-master\examples\chatterbotapitest.py" />
+    <Compile Include="ChatterBot-master\examples\hipchat_bot.py" />
+    <Compile Include="ChatterBot-master\examples\mailgun.py" />
+    <Compile Include="ChatterBot-master\examples\math_and_time.py" />
+    <Compile Include="ChatterBot-master\examples\terminal_example.py" />
+    <Compile Include="ChatterBot-master\examples\terminal_example2.py" />
+    <Compile Include="ChatterBot-master\examples\terminal_mongo_example.py" />
+    <Compile Include="ChatterBot-master\examples\tkinter_gui.py" />
+    <Compile Include="ChatterBot-master\examples\try.py" />
+    <Compile Include="ChatterBot-master\examples\twitter_example.py" />
+    <Compile Include="ChatterBot-master\setup.py" />
+    <Compile Include="ChatterBot-master\tests\base_case.py" />
+    <Compile Include="ChatterBot-master\tests\conversation_tests\test_responses.py" />
+    <Compile Include="ChatterBot-master\tests\conversation_tests\test_statements.py" />
+    <Compile Include="ChatterBot-master\tests\corpus_tests\test_corpus.py" />
+    <Compile Include="ChatterBot-master\tests\corpus_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\input_adapter_tests\test_input_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\input_adapter_tests\test_terminal_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\input_adapter_tests\test_variable_input_type_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\input_adapter_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_closest_match.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_closest_meaning.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_data_cache.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_evaluate_mathematically.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_logic_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_mixins.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\test_time.py" />
+    <Compile Include="ChatterBot-master\tests\logic_adapter_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\output_adapter_tests\test_mailgun_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\output_adapter_tests\test_output_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\output_adapter_tests\test_output_format_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\output_adapter_tests\test_terminal_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\output_adapter_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\integration_tests\base.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\integration_tests\json_integration_tests.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\integration_tests\mongo_integration_tests.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\integration_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\test_jsondb_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\test_mongo_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\test_storage_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\test_twitter_adapter.py" />
+    <Compile Include="ChatterBot-master\tests\storage_adapter_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\test_adapter_validation.py" />
+    <Compile Include="ChatterBot-master\tests\test_chatbot.py" />
+    <Compile Include="ChatterBot-master\tests\test_context.py" />
+    <Compile Include="ChatterBot-master\tests\test_queues.py" />
+    <Compile Include="ChatterBot-master\tests\test_utils.py" />
+    <Compile Include="ChatterBot-master\tests\training_tests\test_corpus_training.py" />
+    <Compile Include="ChatterBot-master\tests\training_tests\test_list_training.py" />
+    <Compile Include="ChatterBot-master\tests\training_tests\test_training.py" />
+    <Compile Include="ChatterBot-master\tests\training_tests\__init__.py" />
+    <Compile Include="ChatterBot-master\tests\__init__.py" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

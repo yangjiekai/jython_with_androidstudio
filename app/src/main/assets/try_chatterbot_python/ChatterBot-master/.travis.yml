@@ -1,0 +1,29 @@
+language: python
+
+python:
+  - '3.5'
+  - '3.4'
+  - '2.7'
+
+os:
+  - linux
+  - windows
+
+install:
+  - pip install codeclimate-test-reporter
+  - pip install coveralls
+  - pip install nltk
+  - pip install -r requirements.txt
+
+addons:
+    code_climate:
+        repo_token: 3ec30a156224df0f59620967241d9659086e918fd824f4f69b8ce7b55b5a590f
+
+services:
+  - mongodb
+
+script:
+  - nosetests  --with-coverage --cover-package=chatterbot
+
+after_success:
+  - coveralls
